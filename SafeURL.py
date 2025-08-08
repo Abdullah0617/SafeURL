@@ -11,10 +11,10 @@ params={'apikey':api_key,'resource':url}
 response=requests.get(url,params=params)
 response_json = response.json()
 if response_json['positives'] <= 0:
-    print("Good")
+    print("NOT MALICIOUS")
 elif 1>=response_json['positive']>=3:
-    print("Fine")
+    print("MIGHT BE MALICIOUS")
 elif response_json['positive']>=4:
-    print("Bad")  
+    print("MALICIOUS")  
 else:
     print("URL Not Found")        
