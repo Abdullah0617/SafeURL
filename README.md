@@ -1,0 +1,1 @@
+# It will help you to find if the URL is MALICIOUS or NOT.
