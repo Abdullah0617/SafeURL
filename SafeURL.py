@@ -4,7 +4,7 @@ import json
 
 link=input("Enter the url: ")
 
-api_key='e90aae7b6f77f64baf70ea674a4b02a33c8cacd00fccda178324284fd4f22ee3'
+api_key=''
 url='https://www.virustotal.com/vtapi/v2/url/report'
 
 params={'apikey':api_key,'resource':url}
